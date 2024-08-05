@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">BillingSys</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="inventory.html">Inventory</a></li>
+            </ul>
+            <button class="login-btn">Login</button>
+        </nav>
+    </header>
+
+    <section id="inventory" class="inventory">
+        <h2>Inventory Management</h2>
+        <div class="inventory-form">
+            <label for="item">Add Item:</label>
+            <input type="text" id="item" name="item" required>
+            <button id="add-item-btn" class="submit-btn">Add Item</button>
+        </div>
+        <div class="inventory-list">
+            <h3>Item List:</h3>
+            <ul id="item-list"></ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 BillingSys. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

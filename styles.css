@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.login-btn {
+    background-color: white;
+    color: #007BFF;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.login-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 123, 255, 0.7), rgba(0, 123, 255, 0.7)), url('https://source.unsplash.com/1600x900/?billing,management');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 6rem 2rem;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-btn {
+    background-color: white;
+    color: #007BFF;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.cta-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.features {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: white;
+}
+
+.features h2 {
+    color: #007BFF;
+}
+
+.feature-item {
+    margin: 2rem 0;
+}
+
+.about, .contact, .inventory {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: white;
+}
+
+.contact-form, .inventory-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form label, .inventory-form label {
+    display: block;
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea, .inventory-form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.inventory-list {
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: left;
+}
+
+.inventory-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.inventory-list li {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
